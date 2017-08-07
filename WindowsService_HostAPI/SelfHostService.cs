@@ -25,7 +25,7 @@ namespace WindowsService_HostAPI
             OnStop();
         }
 
-        protected override void OnStart(string[] args)
+        protected override void OnStart(string[] args) 
         {
             //Process[] pname = Process.GetProcessesByName("smart-office-service");
             //if (pname.Length != 0) pname[0].Kill();
